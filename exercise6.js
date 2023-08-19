@@ -88,3 +88,5 @@ let means = add / numbers.length;
 
 console.log('The average mean is- ', means);
 
+
+
