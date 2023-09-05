@@ -95,6 +95,17 @@ console.log(`the factorial number of ${i} is ${z}`)
 
 // Counting Characters: Write a program that counts and prints the number of occurrences of a specific character in a given string using a for loop.
 
+const inputstring = "Hey I am Learning JavaScript";
+const targetchar = "a";
+let counting = 0;
+
+for (let i = 0; i < inputstring.length; i++){
+    if (inputstring[i] === targetchar){
+        counting++
+    };
+};
+console.log(`counted charcters are ${counting}`)
+
 // Fibonacci Sequence: Write a program that generates and prints the Fibonacci sequence up to a specified number of terms using a for loop.
 
 // Pattern Printing: Write a program that prints a pattern, such as a triangle or a pyramid, using for loops to control the structure and repetition.
